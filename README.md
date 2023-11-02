@@ -3,7 +3,7 @@ TITLE: NXT WATCH APP
 DESCRIPTION: This app is a video streaming platform just like youtube.  
 It's a single page web application built using react.
 
-APP URL: myappnxtwatch.ccbp.tech
+APP URL: https://myappnxtwatch.ccbp.tech
 
 LOGIN DETAILS:
 
