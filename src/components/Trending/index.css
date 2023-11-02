@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+  .trending-head {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cbd5e1;
+  }
+  .trend-icon {
+    color: orangered;
+    margin-right: 10px;
+  }
+  .trnd-head-color {
+    color: #212121;
+  }
+}
+
+.dark-color {
+  background-color: #212121;
+  color: white;
+}
+
+.color-white {
+  color: white;
+}
+
+@media screen and (min-width: 769px) {
+  .trending-head {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cbd5e1;
+  }
+  .trend-icon {
+    color: orangered;
+    margin-right: 10px;
+  }
+  .trnd-head-color {
+    color: #212121;
+  }
+}

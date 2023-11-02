@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+  .game-img {
+    height: 200px;
+  }
+  .game-title {
+    margin: 5px;
+  }
+  .spacing {
+    margin: 15px;
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.show {
+  color: white;
+}
+
+@media screen and (min-width: 769px) {
+  .game-img {
+    height: 200px;
+  }
+  .game-title {
+    margin: 5px;
+  }
+  .spacing {
+    margin: 15px;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

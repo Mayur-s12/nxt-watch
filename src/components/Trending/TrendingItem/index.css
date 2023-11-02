@@ -1,0 +1,152 @@
+@media screen and (max-width: 768px) {
+  .fail-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .wrap {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .menu-side {
+    display: none;
+  }
+  .result-picture {
+    height: 25vh;
+    width: 85vw;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .display-arrange {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+  }
+  .trend-result-side {
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: scroll;
+    height: 90vh;
+  }
+
+  .display-flex {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  .result-title {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .container-width {
+    width: 70%;
+    margin-left: 5px;
+  }
+  .profile-img {
+    height: 50px;
+    margin-top: 10px;
+  }
+  .margin-auto {
+    margin: auto;
+  }
+  .para {
+    color: grey;
+    font-size: 12px;
+  }
+}
+
+.fixed {
+  position: fixed;
+}
+
+@media screen and (min-width: 769px) {
+  .fail-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .menu-side {
+    width: 20vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-between;
+  }
+  .trend-result-side {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: scroll;
+    height: 90vh;
+  }
+  .div-width {
+    width: 60%;
+  }
+
+  .display-flex-trending {
+    display: flex;
+  }
+  .wrap {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .result-picture {
+    height: 25vh;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .display-arrange {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+  }
+  .display-flex {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  .result-title {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .container-width {
+    width: 70%;
+    margin-left: 5px;
+  }
+  .profile-img {
+    height: 50px;
+    margin-top: 10px;
+  }
+  .margin-auto {
+    margin: auto;
+  }
+  .para {
+    color: grey;
+    font-size: 12px;
+  }
+}

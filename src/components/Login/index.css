@@ -1,0 +1,138 @@
+@media screen and (max-width: 768px) {
+  .login-bg-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+
+    box-shadow: 1px 1px 10px #606060;
+
+    padding: 10px;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  .logo-login-size {
+    height: 20px;
+  }
+  input {
+    margin: 5px;
+    border: 2px solid grey;
+    height: 25px;
+  }
+
+  label {
+    margin: 5px;
+    margin-top: 15px;
+    color: grey;
+    font-size: small;
+    font-family: roboto;
+  }
+  .checkbox-cont {
+    display: flex;
+
+    height: 35px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .checkbox-class {
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 15px;
+    width: 30px;
+  }
+  .login-button {
+    margin: 5px;
+    margin-top: 12px;
+    height: 25px;
+    color: white;
+    background-color: #3b82f6;
+    border: none;
+    cursor: pointer;
+  }
+  .login-err {
+    color: #ff0b37;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .login-bg-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+
+    box-shadow: 1px 1px 10px #606060;
+
+    padding: 10px;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  .logo-login-size {
+    height: 30px;
+  }
+  input {
+    margin: 5px;
+    border: 2px solid grey;
+    height: 30px;
+  }
+
+  label {
+    margin: 5px;
+    margin-top: 15px;
+    color: grey;
+    font-family: roboto;
+  }
+  .checkbox-cont {
+    display: flex;
+
+    height: 35px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .checkbox-class {
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 15px;
+    width: 30px;
+  }
+  .login-button {
+    margin: 5px;
+    margin-top: 12px;
+    height: 35px;
+    color: white;
+    background-color: #3b82f6;
+    border: none;
+    cursor: pointer;
+  }
+
+  .login-err {
+    color: #ff0b37;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+}

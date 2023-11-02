@@ -1,0 +1,112 @@
+@media screen and (max-width: 768px) {
+  .videos-flex {
+    display: flex;
+    height: 100vh;
+  }
+  .player {
+    display: none;
+  }
+  .video-side {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: aliceblue;
+    padding: 20px;
+  }
+
+  .title-width {
+    font-size: 20px;
+  }
+  .flex-like {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-views {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+
+  .flex-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+  }
+  .show-none {
+    display: none;
+  }
+  .spacing {
+    margin-right: 5px;
+  }
+  .flex-subscriber {
+    display: flex;
+  }
+
+  .prf-size {
+    height: 70px;
+    margin-right: 15px;
+    margin-right: 10px;
+  }
+}
+
+.no-design {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.color {
+  color: white;
+}
+
+.clicked-view {
+  color: #2563eb;
+}
+
+#back-gr {
+  background-color: #181818;
+}
+
+@media screen and (min-width: 769px) {
+  .videos-flex {
+    display: flex;
+    height: 100vh;
+  }
+  .video-side {
+    width: 45%;
+    height: 85vh;
+    background-color: aliceblue;
+    padding: 20px;
+  }
+
+  .title-width {
+    font-size: 20px;
+  }
+  .flex-like {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hide-player-smoll {
+    display: none;
+  }
+  .flex-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .spacing {
+    margin-right: 5px;
+  }
+  .flex-subscriber {
+    display: flex;
+  }
+
+  .show-not {
+    display: none;
+  }
+
+  .prf-size {
+    height: 70px;
+    margin-right: 10px;
+  }
+}

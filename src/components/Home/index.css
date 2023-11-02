@@ -1,0 +1,191 @@
+@media screen and (max-width: 768px) {
+  .home-banner {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+    background-size: cover;
+    display: flex;
+    margin: 20px;
+    box-shadow: 1px 1px 10px grey;
+    padding: 10px;
+  }
+
+  .banner-img-size {
+    height: 40px;
+  }
+
+  .banner-heading {
+    color: grey;
+    font-size: 15px;
+  }
+  .banner-close {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 50%;
+  }
+  .banner-button {
+    background-color: transparent;
+    border: 2px solid grey;
+    height: 30px;
+    margin-top: 15px;
+  }
+
+  .search-input {
+    margin-left: 20px;
+    margin-right: 0;
+    height: 30px;
+    width: 72%;
+  }
+
+  .search-button {
+    height: 30px;
+    width: 60px;
+  }
+  .menu-item {
+    display: none;
+  }
+  .switch-class {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    padding: 20px;
+  }
+
+  .display-noresult {
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .fail-image {
+    height: 100px;
+  }
+}
+
+.dark-color {
+  background-color: #212121;
+  color: white;
+}
+
+.smoll-size-noresult {
+  height: 100px;
+}
+
+@media screen and (min-width: 769px) {
+  .large-screen-div {
+    display: flex;
+    position: fixed;
+  }
+  .menu-item {
+    width: 12vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95vh;
+  }
+  .other-side {
+    width: 90vw;
+    height: 90vh;
+  }
+
+  .menu-color {
+    background-color: #383838;
+  }
+
+  .home-banner {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+    background-size: cover;
+    width: 76%;
+    display: flex;
+    margin: 40px;
+    box-shadow: 1px 1px 10px grey;
+    padding: 10px;
+  }
+
+  .banner-img-size {
+    height: 40px;
+  }
+
+  .banner-heading {
+    color: grey;
+    font-size: 15px;
+  }
+  .banner-close {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+  }
+  .banner-button {
+    background-color: transparent;
+    border: 2px solid grey;
+    height: 30px;
+    margin-top: 15px;
+  }
+
+  .search-input {
+    background-color: transparent;
+    margin-left: 40px;
+    margin-right: 0;
+    height: 30px;
+    width: 72%;
+  }
+
+  .search-button {
+    background-color: lightgray;
+    height: 30px;
+    width: 60px;
+  }
+  .display-results {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    height: 30vh;
+  }
+  span {
+    margin-right: 10px;
+  }
+  .switch-class {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+  }
+
+  .display-noresult {
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30%;
+  }
+
+  ::-webkit-scrollbar {
+    scroll-behavior: unset;
+  }
+
+  .fail-image {
+    height: 200px;
+  }
+
+  .contact-logo {
+    height: 30px;
+    margin: 2px;
+  }
+
+  .text {
+    text-decoration: none;
+  }
+}
