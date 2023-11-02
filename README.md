@@ -3,7 +3,7 @@ TITLE: NXT WATCH APP
 DESCRIPTION: This app is a video streaming platform just like youtube.  
 It's a single page web application built using react.
 
-APP URL:
+APP URL: myappnxtwatch.ccbp.tech
 
 LOGIN DETAILS:
 
@@ -13,7 +13,7 @@ pass: rahul@2021
 INSTALLATION: 1) Clone it from this github link:  
 2)In your terminal run 'npm install' and then 'npm start'.
 
-TECHNOLOGIES USED: html, css, javascript, reactjs.
+TECHNOLOGIES USED: html, css, javascript, react.js, node.js.
 
 FEATURES: 1) UnAuthenticated user cannot login to the app.  
 2)You cannot access the home route and other routes without login.  
