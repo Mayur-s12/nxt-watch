@@ -10,7 +10,7 @@ LOGIN DETAILS:
 login: rahul  
 pass: rahul@2021
 
-INSTALLATION: 1) Clone it from this github link:  
+INSTALLATION: 1) Clone it from this github link: https://github.com/Mayur-s12/nxt-watch.git  
 2)In your terminal run 'npm install' and then 'npm start'.
 
 TECHNOLOGIES USED: html, css, javascript, react.js, node.js.
