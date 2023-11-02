@@ -3,6 +3,17 @@
     display: flex;
     padding: 15px;
     justify-content: space-between;
+    width: 100vw;
+  }
+
+  .ul-head {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-none {
+    background: none;
+    border: none;
   }
 
   .show-hide {

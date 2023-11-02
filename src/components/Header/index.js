@@ -41,7 +41,7 @@ const Header = props => (
       )
       return (
         <nav className="Header-container">
-          <ul>
+          <ul className="ul-head ">
             <li>
               <Link to="/">
                 <img className="logo-size" src={showLogo} alt="website logo" />
@@ -49,7 +49,9 @@ const Header = props => (
             </li>
 
             <li className="show-hide-small">
-              <button data-testid="theme">{showMoon}</button>
+              <button data-testid="theme" className="btn-none">
+                {showMoon}
+              </button>
 
               <Popup
                 modal
@@ -86,7 +88,7 @@ const Header = props => (
                           </p>
                         </Link>
 
-                        <Link to="/saved" className="text">
+                        <Link to="/saved-videos" className="text">
                           <p>
                             {' '}
                             <span>
